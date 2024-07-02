@@ -37,5 +37,5 @@ SELECT * FROM `autores` WHERE `Año de publicación` BETWEEN 1960 AND 1980;
 ### Mostrar el promedio de la edad de publicación (avg).
 
 ```
-SELECT AVG(`Edad de Publicación`) FROM `Autores`;
+SELECT AVG(`Edad de Publicación`) AS `Promedio Edad Publicación` FROM `Autores`;
 ```
